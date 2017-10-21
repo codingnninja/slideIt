@@ -3,7 +3,7 @@ It is a css library just like animate css but for image slide show...
 
 
 To use this library, you can study below html code and play with below classes.
-
+	
   	slideUp
   	slideDown
   	slideLeft
@@ -13,6 +13,14 @@ To use this library, you can study below html code and play with below classes.
   	assortedUpRight
   	assortedDownLeft
   	assortedDownRight
+  	waitForThreeSeconds
+  	waitForSixSeconds
+  	WaitForTwelveSeconds
+  	WaitForEightenSeconds
+  	WaitForTwentyForSeconds
+
+
+  	If you want the animation to show once, you may need to remove infinite class from you elements.
   	
 
 	<div class="slide-it">
