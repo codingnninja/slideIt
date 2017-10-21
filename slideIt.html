@@ -1,37 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 	<title>
 		SlideIt
 	</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="slideit.css">
+	<link rel="stylesheet" type="text/css" href="animateSlide.css">
 </head>
 <body>
+  <!-- You may play with this by changing classes from one to another( 
+  	slideUp
+  	slideDown
+  	slideLeft
+  	slideRight
+  	assorted
+  	assortedLeft
+  	assortedRight
+  	and more in development)-->
 
 	<div class="slide-it">
-		<div class="start first-slide">
-			<div class="img-jpg tall"></div>
-			<h1 class = "text">
-				Ipso facto
-			</h1>
-		</div>
+		<div class="slideShow">
 
-		<div class="start second-slide">
-			<div class="img-jpg tall"></div>
-			<h1 class="text">
-				Yas!
-			</h1>
-		</div>
+			<div class="image">
+				<!-- TO dispay three images, don't add the effect here -->
+				<img src="bg2.jpg" class = "" alt>
+				<h1 class = "">
+					Learn and move forward
+				</h1>
+			</div>
 
-		<div class="start third-slide">
-			<div class="img-jpg tall"></div>
-			<h1 class="text">
-				Facto
-			</h1>
-		</div>
 
+			<div class="image">
+				<!--To display two images, remove waitForTwelveSeconds start fadeOut infinite here--> 
+				<img src="bg1.jpg" class="waitForTwelveSeconds start slideLeft infinite" alt>
+				<h1 class = "text waitForTwelveSeconds start slideLeft infinite">
+					Solve the problem
+				</h1>
+			</div>
+
+
+			<div class="image">
+				<img src="ayo.jpg" class="waitForSixSeconds start slideRight infinite" alt>
+				<h1 class = "text waitForSixSeconds start slideRight infinite">
+					Create a problem for yourself...
+				</h1>
+			</div>
+
+
+		</div>
 	</div>
 
+	<div class="displayOthers"> This is another very important thing we have to work on this day</div>
 </body>
 </html>
+
+
