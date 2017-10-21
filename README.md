@@ -50,5 +50,6 @@ To use this library, you can study below html code and play with below classes.
 	<div class="displayOthers"> This is another very important thing we have to work on this day</div>
 
 
-How chech it out and play with on https://codepen.io/codingnninja/pen/MERWJZ
+Or Check it out and play with it on codepen: https://codepen.io/codingnninja/pen/MERWJZ
 
+It will be better if the images are loaded as backgroud of <div> elements. I will get back to you on that soon.
