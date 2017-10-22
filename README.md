@@ -4,6 +4,7 @@ It is a css library just like animate css but for image slide show...
 
 To use this library, you can study below html code and play with below classes.
 	
+	fadeOut
   	slideUp
   	slideDown
   	slideLeft
@@ -16,7 +17,7 @@ To use this library, you can study below html code and play with below classes.
   	waitForThreeSeconds
   	waitForSixSeconds
   	WaitForTwelveSeconds
-  	WaitForEightenSeconds
+  	WaitForEighteenSeconds
   	WaitForTwentyForSeconds
 
 
